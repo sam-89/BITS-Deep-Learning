@@ -4,7 +4,7 @@ from prettytable import PrettyTable
 
   
 # Initialize weights and learning rate  
-weights = np.array([-1.0, -2.0, -100])  
+weights = np.array([-1.0, -2.0, -100])
 #learning_rate = 0.1  
   
 # Given data and labels
