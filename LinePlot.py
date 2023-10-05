@@ -5,19 +5,19 @@ import sys
 sys.getdefaultencoding()
 sys.stdout.reconfigure(encoding='utf-8')
 
-subscript_1 = "\u2081"  # ₁
-subscript_2 = "\u2082"  # ₂
-subscript_3 = "\u2083"  # ₃
-subscript_4 = "\u2084"  # ₄
-subscript_5 = "\u2085"  # ₅
-subscript_6 = "\u2086"  # ₆
-subscript_7 = "\u2087"  # ₇
-subscript_8 = "\u2088"  # ₈
-subscript_9 = "\u2089"  # ₉
-subscript_0 = "\u2080"  # ₀
-subscript_10 = "\u2081\u2080"  # ₁₀
-subscript_11 = "\u2081\u2081"  # ₁₁
-subscript_12 = "\u2081\u2082"  # ₁₂
+subscript_1 = "\u2081" 
+subscript_2 = "\u2082" 
+subscript_3 = "\u2083" 
+subscript_4 = "\u2084" 
+subscript_5 = "\u2085" 
+subscript_6 = "\u2086" 
+subscript_7 = "\u2087" 
+subscript_8 = "\u2088" 
+subscript_9 = "\u2089"  
+subscript_0 = "\u2080"  
+subscript_10 = "\u2081\u2080" 
+subscript_11 = "\u2081\u2081" 
+subscript_12 = "\u2081\u2082"  
 
 def plot_linear_equation(a, b, c):
     """
