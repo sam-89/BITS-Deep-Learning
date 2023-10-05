@@ -72,3 +72,5 @@ def plot_linear_equation(a, b, c):
 
 # Example usage:
 plot_linear_equation(4, 6, 8)
+
+#Commit
