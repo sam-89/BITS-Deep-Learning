@@ -2,8 +2,8 @@ import math
 
 # Given values
 x = 0.30
-w = 0.20
-b = 0.10
+w = 0
+b = 0.20
 true_output = 0.10
 
 # Calculate the predicted output using the hyperbolic tangent function

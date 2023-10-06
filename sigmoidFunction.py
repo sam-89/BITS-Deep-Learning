@@ -9,7 +9,8 @@ def sigmoid(x):
 
 def g_sigmoid(x):
     sigma_x = sigmoid(x)
-    result = math.log((1 - sigma_x) / sigma_x)
+    #result = math.log((1 - sigma_x) / sigma_x)
+    result = math.log(sigma_x /(1 - sigma_x) )
     return result
 
 # Example usage:

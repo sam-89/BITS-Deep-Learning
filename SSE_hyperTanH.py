@@ -2,8 +2,8 @@ import numpy as np
 
 # Given values
 x = 0.30
-w = 0.20
-b = 0
+w = 0
+b = 0.2
 y_true = 0.10
 
 # Calculate the predicted output

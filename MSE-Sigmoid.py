@@ -8,8 +8,8 @@ x_values = [3, 4, 5, 6, 8]
 actual_y_values = [0.268, 0.730, 0.952, 0.994, 0.999]
 
 # Neuron parameters
-w = 1
-b = 1
+w = 0.1
+b = 0.1
 
 # Predicted y values using the sigmoid function
 predicted_y_values = [sigmoid(w*x + b) for x in x_values]

@@ -4,7 +4,7 @@ import sympy as sp
 x = sp.symbols('x')
 
 # Define the function y
-y = (1 + sp.exp(-x)) / (1 - sp.exp(-x))
+y = (1 - sp.exp(-x)) / (1 + sp.exp(-x))
 
 # Take the order of the derivative as input
 order = int(input("Enter the order of the derivative: "))
